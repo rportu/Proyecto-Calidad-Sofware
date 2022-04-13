@@ -23,9 +23,9 @@
 				<i class="icono izquierda fa fa-lock"></i><input class="password_btn" type="password" name="password" placeholder="Password">
 
 				<p class="texto-registrate">
-			<a href="https://proyectocs055.herokuapp.com/champ">entrar</a>
+			<a href="https://proyectocs055.herokuapp.com/chamb">Ingresar</a>
 			</p>
-			
+
 				<i class="submit-btn fa fa-arrow-right"   >
 				<a href="https://proyectocs055.herokuapp.com/champ"> </a>
 				</i>
