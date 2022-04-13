@@ -2,10 +2,10 @@
 
 // Comprobamos si ya tiene una sesion
 # Si ya tiene una sesion redirigimos al contenido, para que no pueda volver a registrar un usuario.
-if (isset($_SESSION['usuario'])) {
+/*if (isset($_SESSION['usuario'])) {
 	header('Location: index.php');
 	die();
-}
+} */
 
 // Comprobamos si ya han sido enviado los datos
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -83,5 +83,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 
-require 'views/registrate.view.php';
+require 'views/registrate1.view.php';
 ?>
