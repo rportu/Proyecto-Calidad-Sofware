@@ -21,7 +21,7 @@
 
 			<div class="form-group">
 				<i class="icono izquierda fa fa-lock"></i><input class="password_btn" type="password" name="password" placeholder="Password">
-				<i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
+				<i class="submit-btn fa fa-arrow-right" onclick="login.submit()" href="https://proyectocs055.herokuapp.com/champ" ></i>
 			</div>
 
 			<!-- Comprobamos si la variable errores esta seteada, si es asi mostramos los errores -->
