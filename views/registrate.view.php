@@ -25,7 +25,12 @@
 
 			<div class="form-group">
 				<i class="icono izquierda fa fa-lock"></i><input class="password_btn" type="password" name="password2" placeholder="Repite la contraseña">
-				<i class="submit-btn fa fa-arrow-right" onclick="login.submit()" href="https://proyectocs055.herokuapp.com/login.php" ></i>
+
+				<p class="texto-registrate">
+			<a href="https://proyectocs055.herokuapp.com/login">Continuar</a>
+			</p>
+
+				
 			</div>
 
 			<!-- Comprobamos si la variable errores esta seteada, si es asi mostramos los errores -->

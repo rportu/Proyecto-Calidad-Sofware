@@ -26,9 +26,7 @@
 			<a href="https://proyectocs055.herokuapp.com/chamb">Ingresar</a>
 			</p>
 
-				<i class="submit-btn fa fa-arrow-right"   >
-				<a href="https://proyectocs055.herokuapp.com/champ"> </a>
-				</i>
+			
 			</div>
 
 			<!-- Comprobamos si la variable errores esta seteada, si es asi mostramos los errores -->
