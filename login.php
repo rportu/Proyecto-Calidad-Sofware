@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	// Nos conectamos a la base de datos
 	try {
-		$conexion = new PDO('mysql:host=localhost;dbname=id18460773_proyectocs', 'id18460773_proyecto', 'zSRhE$8WeyE$nsP2');
+		$conexion = new PDO('mysql:host=localhost;dbname=id18769968_cs', 'id18769968_ran1', '*JykgWhj0s|fnRy_');
 	} catch (PDOException $e) {
 		echo "Error:" . $e->getMessage();
 	}

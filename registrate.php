@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 		// Comprobamos que el usuario no exista ya.
 		try {
-			$conexion = new PDO('mysql:host=localhost;dbname=id18460773_proyectocs', 'id18460773_proyecto', 'zSRhE$8WeyE$nsP2');
+			$conexion = new PDO('mysql:host=localhost;dbname=id18769968_cs', 'id18769968_ran1', '*JykgWhj0s|fnRy_');
 			
 		} catch (PDOException $e) {
 			echo "Error:" . $e->getMessage();
@@ -48,6 +48,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		// Si resultado es diferente a false entonces significa que ya existe el usuario.
 		if ($resultado != false) {
 			$errores .= '<li>El nombre de usuario ya existe</li>';
+		} else {
+			"Ingresado";
 		}
 
 		// Hasheamos nuestra contraseña para protegerla un poco.
@@ -59,6 +61,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		// Comprobamos que las contraseñas sean iguales.
 		if ($password != $password2) {
 			$errores.= '<li>Las contraseñas no son iguales</li>';
+		}else {
+			"Ingresado";
 		}
 	}
 
@@ -72,6 +76,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 		// Despues de registrar al usuario redirigimos para que inicie sesion.
 		header('Location: login.php');
+	}else {
+		"Ingresado";
 	}
 
 
