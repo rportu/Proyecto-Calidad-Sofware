@@ -1,4 +1,4 @@
-<?php session_start();
+<?php /*session_start();
 
 // Comprobamos si ya tiene una sesion
 # Si ya tiene una sesion redirigimos al contenido, para que no pueda acceder al formulario
@@ -33,8 +33,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	} else {
 		$errores = '<li>Datos incorrectos</li>';
 	}
-}
+} */
 
-require 'views/login1.view.php';
+require 'views/login.view.php';
 
 ?>

@@ -1,4 +1,4 @@
-<?php session_start();
+<?php /*session_start();
 
 // Comprobamos si ya tiene una sesion
 # Si ya tiene una sesion redirigimos al contenido, para que no pueda volver a registrar un usuario.
@@ -8,7 +8,7 @@
 } */
 
 // Comprobamos si ya han sido enviado los datos
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
+/*if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Validamos que los datos hayan sido rellenados
 	$usuario = filter_var(strtolower($_POST['usuario']), FILTER_SANITIZE_STRING);
 	$password = $_POST['password'];
@@ -81,7 +81,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	}
 
 
-}
+}*/
 
-require 'views/registrate1.view.php';
+require 'views/registrate.view.php';
 ?>
